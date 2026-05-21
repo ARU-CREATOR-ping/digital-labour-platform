@@ -3,7 +3,6 @@ import { processPayment } from '../services/api';
 import { useApp } from '../context/AppContext';
 import { t } from '../services/translations';
 import NavigatorHelper from '../components/NavigatorHelper';
-import VoiceAssistant from '../components/VoiceAssistant';
 
 const MOCK_WORKERS = [
   { id: 'w1', name: 'Raju Mistri', job: 'House Painting', days: 3, rate: 800 },
@@ -186,7 +185,6 @@ export default function PaymentPage() {
           {t('🔒 Secure payment. Your data is safe.', hindiMode)}
         </p>
       </div>
-      <VoiceAssistant />
     </div>
   );
 }

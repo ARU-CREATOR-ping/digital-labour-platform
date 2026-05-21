@@ -4,7 +4,6 @@ import { useApp } from '../context/AppContext';
 import { calculateMatchScore } from '../services/api';
 import { t } from '../services/translations';
 import JobCard from '../components/JobCard';
-import VoiceAssistant from '../components/VoiceAssistant';
 
 export default function WorkerDashboard() {
   const { jobs, applications, workerProfile, hindiMode } = useApp();
@@ -109,7 +108,6 @@ export default function WorkerDashboard() {
         ))}
 
       </div>
-      <VoiceAssistant />
     </div>
   );
 }

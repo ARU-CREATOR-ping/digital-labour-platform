@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react';
 import { uploadAttendancePhoto } from '../services/api';
 import { useApp } from '../context/AppContext';
 import { t } from '../services/translations';
-import VoiceAssistant from '../components/VoiceAssistant';
 import NavigatorHelper from '../components/NavigatorHelper';
 
 export default function AttendancePage() {
@@ -165,7 +164,6 @@ export default function AttendancePage() {
           </div>
         )}
       </div>
-      <VoiceAssistant />
     </div>
   );
 }

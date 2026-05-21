@@ -3,7 +3,6 @@ import { useApp } from '../context/AppContext';
 import { t } from '../services/translations';
 import { submitReviewAPI } from '../services/api';
 import NavigatorHelper from '../components/NavigatorHelper';
-import VoiceAssistant from '../components/VoiceAssistant';
 
 
 
@@ -221,7 +220,6 @@ export default function ReviewPage() {
           </div>
         )}
       </div>
-      <VoiceAssistant />
     </div>
   );
 }

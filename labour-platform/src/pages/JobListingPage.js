@@ -4,8 +4,8 @@ import { t } from '../services/translations';
 import { calculateMatchScore, scoreColor } from '../services/api';
 import JobCard from '../components/JobCard';
 import NavigatorHelper from '../components/NavigatorHelper';
-import VoiceAssistant from '../components/VoiceAssistant';
 import MatchInsightsModal from '../components/MatchInsightsModal';
+
 
 const CATEGORIES = ['All', 'Painting', 'Electrician', 'Plumbing', 'Carpentry', 'AC Technician', 'Masonry'];
 
@@ -226,7 +226,6 @@ export default function JobListingPage() {
           ))
         )}
       </div>
-      <VoiceAssistant />
       
       {/* AI Insights Modal */}
       <MatchInsightsModal 

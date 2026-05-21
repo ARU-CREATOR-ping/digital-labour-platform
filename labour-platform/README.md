@@ -71,8 +71,7 @@ src/
 │   ├── Navbar.js             # Top navigation bar (responsive)
 │   ├── JobCard.js            # Job listing card with match score ring
 │   ├── ProfileCard.js        # Worker profile card with hire button
-│   ├── NavigatorHelper.js    # Tooltip helper + StepGuide stepper
-│   └── VoiceAssistant.js     # AI voice assistant (Web Speech API)
+│   └── NavigatorHelper.js    # Tooltip helper + StepGuide stepper
 │
 └── pages/
     ├── LandingPage.js         # Hero landing page
@@ -130,7 +129,6 @@ Rate & Review               Rate & Review
 | 💳 Payments | UPI, Cash, Bank Transfer options |
 | ⭐ Reviews | 5-star ratings with quick tags |
 | 💡 Navigator | Contextual tooltips on all form fields |
-| 🎤 Voice Assistant | Web Speech API (mic input + TTS output) |
 | 📱 Responsive | Mobile-first design |
 | 🛡️ Route Guards | Protected routes by auth + role |
 
@@ -150,23 +148,6 @@ MatchScore =
 ```
 
 See `src/services/api.js` → `calculateMatchScore()` for implementation.
-
----
-
-## 🎤 Voice Assistant Commands
-
-Say these phrases (or type them):
-
-| Command | Response |
-|---|---|
-| "find job" | Guides to job discovery page |
-| "apply" | Explains application process |
-| "payment" | Explains payment options |
-| "attendance" | Explains photo upload process |
-| "rating" | Explains rating system |
-| "match" | Explains AI match score |
-| "help" | Lists all commands |
-| "hello" / "hi" | Greeting response |
 
 ---
 

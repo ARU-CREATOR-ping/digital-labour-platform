@@ -1,6 +1,6 @@
 # ⚒️ Digital Labour Platform
 
-A modern, high-performance, and visually stunning web application designed to connect skilled workers (electricians, painters, plumbers, constructors) with clients. It focuses on accessibility, premium aesthetics, and smooth user experience with dedicated features like real-time analytics, multilingual localization, and built-in voice assistance.
+A modern, high-performance, and visually stunning web application designed to connect skilled workers (electricians, painters, plumbers, constructors) with clients. It focuses on accessibility, premium aesthetics, and smooth user experience with dedicated features like real-time analytics and multilingual localization.
 
 ---
 
@@ -14,10 +14,6 @@ A modern, high-performance, and visually stunning web application designed to co
 ### 🌐 Multi-lingual Localization
 * Fully translated in multiple languages (English, Hindi, Punjabi, etc.) to support local/vernacular workers who might not be fluent in English.
 * Instantly toggle languages anywhere in the header navigation.
-
-### 🎤 Interactive Voice Assistant
-* Hand-free voice commands using Web Speech recognition.
-* Supports commands like "find job", "attendance", "payment", and "match" with text-to-speech visual and audio responses.
 
 ### 📸 Photos-based Smart Attendance
 * Workers can easily mark their daily attendance by taking/uploading a photo.
@@ -92,4 +88,17 @@ To test the application instantly:
 ---
 
 ## 📄 License
-This project is licensed under the MIT License.
+
+This project is licensed under the **MIT License**. 
+
+### What does this mean?
+The MIT License is one of the most permissive open-source licenses available. It gives you and anyone else the complete freedom to:
+* **Commercial Use:** Use this project for commercial or business purposes.
+* **Modification:** Modify, edit, and change the source code as you see fit.
+* **Distribution:** Share, copy, and distribute the original or modified code.
+* **Sublicense:** Include this code as part of a larger, closed-source, or commercial product.
+
+The only simple conditions are:
+1. **Attribution:** The original copyright notice and permission notice must be included in all copies or substantial portions of the software.
+2. **No Warranty:** The software is provided "as is", without any warranty of any kind. The authors are not liable for any claims or damages.
+
