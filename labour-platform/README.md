@@ -1,6 +1,7 @@
-# ⚒️ AI – Digital Labour Platform
+# ⚒️ Digital Labour Platform
 
-A complete React frontend for a Digital Labour Platform that connects **workers** and **clients** with AI-powered job matching.
+A complete React frontend for a Digital Labour Platform that connects **workers** and **clients** with smart job matching.
+
 
 ---
 
